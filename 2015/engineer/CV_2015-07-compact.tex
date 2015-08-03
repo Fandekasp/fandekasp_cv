@@ -26,6 +26,25 @@
 }
 \setcvcontactszone[extra]{%
     \\
+    \rendercontactifdefined{hobby0}
+    \rendercontactifdefined{hobby1}
+    \rendercontactifdefined{hobby2}
+    \rendercontactifdefined{hobby3}
+    \rendercontactifdefined{hobby4}
+    \rendercontactifdefined{hobby5}
+    \rendercontactifdefined{hobby6}
+    \rendercontactifdefined{hobby7}
+    \rendercontactifdefined{hobby8}
+    \rendercontactifdefined{hobby9}
+    \\
+    \\
+    \\
+    \\
+    \\
+    \\
+    \\
+    \\
+    \\
     \\
     \rendercontactifdefined{custom0}
     \rendercontactifdefined{custom1}
@@ -41,18 +60,6 @@
     \rendercontactifdefined{custom11}
     \rendercontactifdefined{custom12}
     \rendercontactifdefined{custom13}
-    \\
-    \\
-    \rendercontactifdefined{hobby0}
-    \rendercontactifdefined{hobby1}
-    \rendercontactifdefined{hobby2}
-    \rendercontactifdefined{hobby3}
-    \rendercontactifdefined{hobby4}
-    \rendercontactifdefined{hobby5}
-    \rendercontactifdefined{hobby6}
-    \rendercontactifdefined{hobby7}
-    \rendercontactifdefined{hobby8}
-    \rendercontactifdefined{hobby9}
 }
 
 
@@ -114,7 +121,6 @@
 \setcvcontact[linkedin]{adrienlemaire}
 \setcvcontact[twitter]{@Fandekasp}
 \setcvcontact[github]{Fandekasp}
-\setcvcontact[spokenlanguages]{French (native)\\English (fluent)\\Japanese (JLPT n3)} 
 \setcvcontact[age]{November 8th 1987} 
 \setcvcontact[address]{Osaka, Japan} 
 
@@ -122,11 +128,8 @@
 \setcvcontact[custom1]{Lean Startup} 
 \setcvcontact[custom2]{TDD, DDDs, BDDs} 
 \setcvcontact[custom3]{Unit/Integration/Load Testing} 
-\setcvcontact[custom4]{Python} 
 \setcvcontact[custom5]{Javascript} 
 \setcvcontact[custom6]{HTML, CSS} 
-\setcvcontact[custom7]{Linux} 
-\setcvcontact[custom8]{Git} 
 \setcvcontact[custom9]{AWS} 
 \setmystyle[custom10]{\mystyle[cvcontact]}
 \setcvcontact[custom10]{Docker} 
@@ -156,43 +159,33 @@
 \section{Experience}
 \story{Engineer}{Ikkyo Technology K.K, AlpacaDB Inc}{2014/06-2015/09\\\faGlobe \ Japan / USA}
 {Software Development\\Computer Vision\\ Machine Learning\\Databases\\DevOps}
-    { Working as a Full Stack engineer at AlpacaDB, I was able to improve and put
-      into practice my skills in Computer Vision and Machine Learning. I
-      worked on every steps of the development process, from Core Design to
-      Implementation and Testing, CI \& QA, Networking and System Administration.
-      The high-volume work required me to set new standards on code quality and work
-      efficiency, making me reach expertise in the productivity area.
-	\begin{missions}
-        \item \underline{\href{http://www.labell.io/}{Labellio}}, a deep
-            learning image labeller \& model trainer.
-        \item \underline{\href{http://iromo.jp}{Iromo}}, shopping experience by
-            searching similar fashion items by color and patterns.
-        \item Data-analysis and R\&D missions for several large customers.
-	\end{missions}
+    { Working as a Full Stack engineer at AlpacaDB, I worked on every steps of
+      the development process, from Core Design to Implementation and Testing,
+      Machine Learning and Computer Vision, CI \& QA, Networking and System
+      Administration.  Built
+      \underline{\href{http://www.labell.io/}{Labellio}}, a deep learning image
+      labeller \& model trainer, and \underline{\href{http://iromo.jp}{Iromo}},
+      shopping experience by searching similar fashion items by color and
+      patterns. Handled various Data-analysis and R\&D missions for several
+      large customers.
 }
 \story{Director of Technology}{Aquasys G.K.}{2011/04-2014/08\\\faGlobe \ Japan / Australia}
 {System Administration\\Product management\\Project management\\Web
 development\\CI, QA}
 	{ Starting as a Software Engineer, I quickly got appreciated for my
       dedication and performance, and ended promoted as Director of
-      Technology, supervising all technical operations, making the best out of
-      my teammates skills and mentoring them to enhance their experience.
-	\begin{missions}
-        \item Developed a generic framework for marketplaces such as
-            \underline{\href{https://uruma-work.com}{Uruma-work}.}
-        \item Hired and Trained freelancers to work on various projects.
-        \item Managed Odoo (ex-OpenERP) operations.
-	\end{missions}
+      Technology, supervising all technical operations (developing a
+      generic framework for marketplaces such as
+      \underline{\href{https://uruma-work.com}{Uruma-work}}, managing Odoo
+      (ex-OpenERP) operations), hiring and mentoring freelancers.
 }
 
 \story{Web Developer}{Fry, Inc}{2010/07-2011/03\\\faGlobe \ UK}
 {Django\\HTML, CSS, JS\\PostgreSQL, Nginx}
-	{ After 6 previous jobs in the IT sector, Fry enabled me to graduate from a junior developer into a full-fledged Web developer.
-	\begin{missions}
-    \item Frontend integration: HTML4\&5, CSS2\&3, JS (jQuery, NinjaUI)
-    \item Backend: Django, PostGreSQL, RabbitMQ, Celery, Nginx, uWSGI, Gunicorn
-    \item TDD, Kata, Debugging practices
-	\end{missions}
+	{ After 6 previous jobs in the IT sector, Fry enabled me to graduate from a
+      junior developer into a full-fledged Web developer. I handled Frontend
+      integration, Backend with Django, PostGreSQL, RabbitMQ, Nginx, and CI/CD
+      with TDD, Kata, Debugging practices.
 }
 \section{Education}
 %\story{MOOC Certifications}{AI, Gamification, Learning how to learn}{2011-2015}{}{}
@@ -201,13 +194,13 @@ University}{2006-2011\\\faGlobe \ France / Canada / UK}{}{}
 \story{Certificate in Operating Systems Development}{Dominican University of
 California}{2009-2010\\\faGlobe \ USA}{}{}
 
-%\section{Skills}
-%\begin{skills} {Language}
-%\skill[French]{ Mother tongue}
-%\skill[English]{ Fluent (2010: TOEIC 855}
-%\skill[Esperanto]{ Fluent}
-%\skill[Japanese]{ Intermediate (2015: JLPT n3)}
-%\end{skills}
+\section{Skills}
+\begin{skills} {Language}
+\skill[French]{ Mother tongue}
+\skill[English]{ Fluent (2010: TOEIC 855}
+\skill[Esperanto]{ Fluent}
+\skill[Japanese]{ Intermediate (2015: JLPT n3)}
+\end{skills}
 %\begin{skills}{Social}
 %\skill[MBTI]{ENTP}
 %\skill[team]{Friendly relationships, great communication}
@@ -217,12 +210,12 @@ California}{2009-2010\\\faGlobe \ USA}{}{}
 %\skill[Strategic Planning]{Agile, Scrum, XP, Lean Startup}
 %\end{skills}
 % Argument for fields env. are title, cols count and max rate
-%\begin{fields}{Technical}{2}{5}
-%\field{Python}{5}
-%\field{Linux}{5}
-%\field{Git}{5}
-%\field{DevOps}{4}
-%\field{Product}{4}
-%\field{SysAdmin}{3}
-%\end{fields}
+\begin{fields}{Technical}{2}{5}
+\field{Python}{5}
+\field{Project Management}{5}
+\field{Git}{5}
+\field{Development Operations}{5}
+\field{Linux}{5}
+\field{Product Design}{4}
+\end{fields}
 \end{document}
